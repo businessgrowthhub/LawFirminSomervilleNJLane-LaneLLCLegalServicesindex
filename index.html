@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Law Firm in Somerville, NJ | Lane & Lane, LLC | Legal Services</title>
+  <meta name="description" content="Lane & Lane, LLC is a premier Law Firm in Somerville, NJ. Dedicated legal representation in Personal Injury, Family Law, Estate Planning, Probate, and Real Estate Law. Call (908) 259-6673 today.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Cinzel & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              800: '#11223F',
+              900: '#0b162a',
+              950: '#070e1b',
+            },
+            gold: {
+              400: '#D4AF37',
+              500: '#C5A059',
+              600: '#A3803C',
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(7, 14, 27, 0.93) 0%, rgba(17, 34, 63, 0.88) 100%);
+    }
+    .gold-gradient {
+      background: linear-gradient(135deg, #C5A059 0%, #D4AF37 50%, #A3803C 100%);
+    }
+    .gold-text {
+      background: linear-gradient(135deg, #E6CA85 0%, #C5A059 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="font-sans bg-slate-50 text-slate-800 antialiased selection:bg-gold-500 selection:text-white">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-navy-950 text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-navy-800/80">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4">
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-gold-500"></i> 84 E Main St 2nd floor, Somerville, NJ 08876</span>
+        <span class="hidden md:inline text-slate-600">|</span>
+        <span class="hidden md:flex items-center gap-1.5"><i class="fa-solid fa-clock text-gold-500"></i> Mon - Fri: 8:30 AM - 5:30 PM</span>
+      </div>
+      <div class="flex items-center gap-4 font-medium">
+        <a href="tel:9082596673" class="hover:text-gold-400 transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-phone text-gold-500"></i> (908) 259-6673
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 bg-navy-900/95 backdrop-blur-md shadow-xl border-b border-gold-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <img 
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipFczznNQwpc5mbfPwNo59N8j3UU8iSy34azfhvp9wM0bS88sRPeCu7ah2dkHLg87rdNKGalelzYsCgScx-NpVK42IT4hB42yyPkbpxT6lysNyTWd1Jx3qhVQSUdm4Z6oHfa1hFRrLIJr7DBWB9CySEcQ5SO50HT0mC7kzs3fIhCLzaa0Aw6221ri6cx4/s450/Lane%20&%20Lane,%20LLC.jpg" 
+            alt="Lane & Lane, LLC Logo" 
+            class="h-12 w-auto rounded border border-gold-500/40 shadow-sm group-hover:scale-105 transition-transform"
+            onerror="this.src='https://placehold.co/180x60/11223F/C5A059?text=Lane+%26+Lane'"
+          />
+          <div>
+            <span class="font-serif font-bold text-xl sm:text-2xl text-white tracking-wide block leading-none">LANE & LANE</span>
+            <span class="text-[10px] sm:text-xs text-gold-400 font-semibold tracking-widest uppercase block mt-1">Attorneys At Law</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-200">
+          <a href="#about" class="hover:text-gold-400 transition-colors">About Us</a>
+          <a href="#services" class="hover:text-gold-400 transition-colors">Practice Areas</a>
+          <a href="#estimator" class="hover:text-gold-400 transition-colors">Retainer Calculator</a>
+          <a href="#why" class="hover:text-gold-400 transition-colors">Why Choose Us</a>
+          <a href="#faq" class="hover:text-gold-400 transition-colors">FAQ</a>
+          <a href="#contact" class="hover:text-gold-400 transition-colors">Contact</a>
+        </nav>
+
+        <!-- CTA Button -->
+        <div class="hidden sm:flex items-center">
+          <a href="tel:9082596673" class="gold-gradient hover:opacity-95 text-navy-950 font-bold px-5 py-2.5 rounded-md shadow-lg hover:shadow-gold-500/20 transition-all text-sm flex items-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            <span>(908) 259-6673</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" class="lg:hidden text-slate-300 hover:text-white p-2 focus:outline-none">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-navy-950 border-b border-navy-800 px-4 pt-2 pb-6 space-y-3 text-slate-200">
+      <a href="#about" class="block py-2 text-base font-medium hover:text-gold-400 border-b border-navy-800">About Us</a>
+      <a href="#services" class="block py-2 text-base font-medium hover:text-gold-400 border-b border-navy-800">Practice Areas</a>
+      <a href="#estimator" class="block py-2 text-base font-medium hover:text-gold-400 border-b border-navy-800">Retainer Calculator</a>
+      <a href="#why" class="block py-2 text-base font-medium hover:text-gold-400 border-b border-navy-800">Why Choose Us</a>
+      <a href="#faq" class="block py-2 text-base font-medium hover:text-gold-400 border-b border-navy-800">FAQ</a>
+      <a href="#contact" class="block py-2 text-base font-medium hover:text-gold-400">Contact</a>
+      <div class="pt-2">
+        <a href="tel:9082596673" class="w-full gold-gradient text-navy-950 font-bold py-3 rounded-md shadow text-center block">
+          Call Now: (908) 259-6673
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative min-h-[580px] lg:min-h-[650px] flex items-center justify-center text-white overflow-hidden">
+      <!-- Background Image with Overlay -->
+      <div class="absolute inset-0 z-0">
+        <img 
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnKNwCyDZaAQ3yl_OoiAlUG1AuAcp5eZMLcOj3CK-PaUGuB-biNXY7ndR3l8SQ_ljmnMGBIt-5nFZFRybCyHcligVrhJwvwjkqKHwwR-QfgRqqUomA9KA79laVZN_arFuHQa06FsaBK0yu6tkdqSTNRCHTSZhxw2KuQPAzdthoN_5DUHxDyCDLHfS-8kc/s1365/Family%20Law%20Attorney%20Near%20Me.jpg" 
+          alt="Law Firm in Somerville, NJ" 
+          class="w-full h-full object-cover object-center"
+          onerror="this.src='https://placehold.co/1920x1080/0f1e36/C5A059?text=Lane+%26+Lane+LLC'"
+        />
+        <div class="absolute inset-0 hero-gradient"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-gold-500/20 border border-gold-500/40 text-gold-400 text-xs sm:text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-sm">
+          Somerset County Premier Legal Representation
+        </span>
+        <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white mb-6">
+          Experienced <span class="gold-text">Law Firm in Somerville, NJ</span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-base sm:text-lg lg:text-xl text-slate-300 mb-8 font-light leading-relaxed">
+          Lane & Lane, LLC provides resolute legal advocacy and personalized strategic counsel. Protecting your rights in Personal Injury, Family Law, Estate Planning, Probate, and Real Estate Law.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#contact" class="w-full sm:w-auto gold-gradient text-navy-950 font-bold px-8 py-4 rounded-md shadow-xl hover:shadow-gold-500/30 transition-all text-base flex items-center justify-center gap-2">
+            <span>Schedule Legal Consultation</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="tel:9082596673" class="w-full sm:w-auto bg-navy-900/80 hover:bg-navy-900 text-white border border-slate-600 font-semibold px-8 py-4 rounded-md transition-all text-base flex items-center justify-center gap-2 backdrop-blur-sm">
+            <i class="fa-solid fa-phone text-gold-400"></i>
+            <span>(908) 259-6673</span>
+          </a>
+        </div>
+
+        <!-- Highlights Badges -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 pt-8 border-t border-slate-700/60 max-w-4xl mx-auto">
+          <div class="p-2">
+            <div class="text-gold-400 text-xl font-bold font-serif">Decades</div>
+            <div class="text-xs text-slate-300">Legal Experience</div>
+          </div>
+          <div class="p-2">
+            <div class="text-gold-400 text-xl font-bold font-serif">100%</div>
+            <div class="text-xs text-slate-300">Dedicated Advocacy</div>
+          </div>
+          <div class="p-2">
+            <div class="text-gold-400 text-xl font-bold font-serif">Somerville</div>
+            <div class="text-xs text-slate-300">Local Court Knowledge</div>
+          </div>
+          <div class="p-2">
+            <div class="text-gold-400 text-xl font-bold font-serif">Full Service</div>
+            <div class="text-xs text-slate-300">Civil & Family Practice</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-6 space-y-6">
+            <div class="inline-flex items-center gap-2 text-gold-600 font-semibold text-sm uppercase tracking-wider">
+              <span class="w-8 h-0.5 bg-gold-500"></span> About Lane & Lane, LLC
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 leading-tight">
+              Your Trusted Legal Advocate & <span class="text-gold-600">Law Firm Near Me</span>
+            </h2>
+            <p class="text-slate-600 leading-relaxed text-base">
+              At <strong>Lane & Lane, LLC</strong>, we are dedicated to providing superior legal counsel to individuals, families, and business owners throughout New Jersey. Situated conveniently at 84 E Main St in downtown Somerville, our firm delivers the legal authority of a large firm paired with the responsive, individualized attention you deserve.
+            </p>
+            <p class="text-slate-600 leading-relaxed text-base">
+              Navigating legal hurdles—whether it is recovering from a car accident, managing a sensitive marital dissolution, or structuring an estate—demands a legal team with deep local roots. If you are searching for an established <strong>Law Firm in Somerville, NJ</strong> or a trusted <strong>Family Law Attorney Near Me</strong>, our attorneys leverage decades of combined experience to fight for the optimal result.
+            </p>
+
+            <div class="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                <i class="fa-solid fa-gavel text-gold-500 text-xl mt-1"></i>
+                <div>
+                  <h4 class="font-bold text-navy-900 text-sm">Aggressive Defense</h4>
+                  <p class="text-xs text-slate-500">Relentless pursuit of client rights in court and mediation.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                <i class="fa-solid fa-handshake-angle text-gold-500 text-xl mt-1"></i>
+                <div>
+                  <h4 class="font-bold text-navy-900 text-sm">Client-Centered Care</h4>
+                  <p class="text-xs text-slate-500">Direct attorney access with transparent legal guidance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              <!-- Decorative Backdrop Box -->
+              <div class="absolute -inset-4 rounded-2xl gold-gradient opacity-20 transform rotate-2"></div>
+              
+              <div class="relative bg-navy-900 rounded-xl overflow-hidden shadow-2xl border-2 border-gold-500/30">
+                <img 
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnKNwCyDZaAQ3yl_OoiAlUG1AuAcp5eZMLcOj3CK-PaUGuB-biNXY7ndR3l8SQ_ljmnMGBIt-5nFZFRybCyHcligVrhJwvwjkqKHwwR-QfgRqqUomA9KA79laVZN_arFuHQa06FsaBK0yu6tkdqSTNRCHTSZhxw2KuQPAzdthoN_5DUHxDyCDLHfS-8kc/s1365/Family%20Law%20Attorney%20Near%20Me.jpg" 
+                  alt="Family Law Attorney Near Me - Lane & Lane, LLC" 
+                  class="w-full h-80 sm:h-96 object-cover"
+                  onerror="this.src='https://placehold.co/600x400/11223F/C5A059?text=Lane+%26+Lane+Attorneys'"
+                />
+                <div class="p-6 bg-navy-900 text-white">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <h3 class="font-serif text-lg font-bold">Lane & Lane, LLC</h3>
+                      <p class="text-xs text-gold-400">84 E Main St 2nd floor, Somerville, NJ 08876</p>
+                    </div>
+                    <a href="tel:9082596673" class="bg-gold-500 hover:bg-gold-600 text-navy-950 font-bold px-4 py-2 rounded text-xs transition-colors">
+                      Call Us
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-20 bg-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold-600 font-semibold text-sm uppercase tracking-wider mb-2">
+            Comprehensive Legal Practice Areas
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900">
+            Tailored Legal Solutions For Every Need
+          </h2>
+          <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Service Card 1 -->
+          <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-8 border-t-4 border-gold-500 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-lg bg-navy-900 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-car-burst"></i>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-navy-900 mb-3">
+                Personal Injury & Car Accidents
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Inured due to negligence? Connect with a top-rated <strong>Personal Injury Lawyer Somerville, NJ</strong> or an aggressive <strong>Car Accident Lawyer Somerville, NJ</strong> to ensure maximum medical and financial recovery.
+              </p>
+            </div>
+            <a href="#contact" class="inline-flex items-center text-gold-600 hover:text-navy-900 font-semibold text-sm gap-2 mt-4">
+              <span>Free Case Consultation</span>
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-8 border-t-4 border-gold-500 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-lg bg-navy-900 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-people-roof"></i>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-navy-900 mb-3">
+                Family Law & Divorce
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Navigating sensitive marital issues with care. Speak with a dedicated <strong>Family Law Attorney Near Me</strong> for child custody, spousal support, alimony, prenuptial agreements, and asset division.
+              </p>
+            </div>
+            <a href="#contact" class="inline-flex items-center text-gold-600 hover:text-navy-900 font-semibold text-sm gap-2 mt-4">
+              <span>Discuss Your Family Matter</span>
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-8 border-t-4 border-gold-500 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-lg bg-navy-900 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-file-signature"></i>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-navy-900 mb-3">
+                Estate Planning & Wills
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Safeguard your legacy with a trusted <strong>Estate Planning Attorney Near Me</strong> and expert <strong>Estate Planning Lawyer Somerville, NJ</strong> creating robust wills, trusts, and powers of attorney.
+              </p>
+            </div>
+            <a href="#contact" class="inline-flex items-center text-gold-600 hover:text-navy-900 font-semibold text-sm gap-2 mt-4">
+              <span>Protect Your Estate</span>
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-8 border-t-4 border-gold-500 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-lg bg-navy-900 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-scale-balanced"></i>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-navy-900 mb-3">
+                Probate & Estate Administration
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Navigating court procedures, debt settlement, and asset distribution effortlessly with guidance from a qualified <strong>Probate Attorney Somerville, NJ</strong>.
+              </p>
+            </div>
+            <a href="#contact" class="inline-flex items-center text-gold-600 hover:text-navy-900 font-semibold text-sm gap-2 mt-4">
+              <span>Schedule Probate Consultation</span>
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-8 border-t-4 border-gold-500 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-lg bg-navy-900 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-navy-900 mb-3">
+                Real Estate Transactions
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Ensure seamless property acquisitions, title checks, contract reviews, and sales representation with a skilled <strong>Real Estate Attorney Somerville, NJ</strong>.
+              </p>
+            </div>
+            <a href="#contact" class="inline-flex items-center text-gold-600 hover:text-navy-900 font-semibold text-sm gap-2 mt-4">
+              <span>Review Property Contracts</span>
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 6 (General Litigation) -->
+          <div class="bg-navy-900 rounded-xl shadow-md hover:shadow-xl transition-all p-8 text-white flex flex-col justify-between border border-gold-500/30">
+            <div>
+              <div class="w-14 h-14 rounded-lg bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-gold-400 text-2xl mb-6">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-white mb-3">
+                General Civil Litigation
+              </h3>
+              <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                Comprehensive courtroom advocacy and dispute resolution for complex legal conflicts in Somerset County and surrounding areas.
+              </p>
+            </div>
+            <a href="tel:9082596673" class="gold-gradient text-navy-950 font-bold px-4 py-3 rounded text-center text-sm shadow hover:opacity-95 transition-opacity mt-4 block">
+              Direct Phone: (908) 259-6673
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="estimator" class="py-20 bg-navy-900 text-white relative overflow-hidden">
+      <!-- Background Graphic -->
+      <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-12">
+          <span class="text-gold-400 text-xs sm:text-sm font-semibold uppercase tracking-widest">Transparent Fee Guidelines</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2">Legal Fee & Retainer Estimator</h2>
+          <p class="text-slate-300 text-sm sm:text-base mt-2 max-w-2xl mx-auto">
+            Select your legal matter below to get an estimated starting retainer range or contingency structure for our services.
+          </p>
+        </div>
+
+        <div class="bg-navy-950/90 border border-gold-500/30 rounded-2xl p-6 sm:p-10 shadow-2xl backdrop-blur-md">
+          <form id="calculatorForm" onsubmit="event.preventDefault(); computeEstimate();" class="space-y-6">
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <!-- Legal Service Selection -->
+              <div>
+                <label for="practiceArea" class="block text-sm font-medium text-slate-200 mb-2">
+                  1. Select Practice Area
+                </label>
+                <select id="practiceArea" class="w-full bg-navy-900 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none text-sm">
+                  <option value="contingency">Personal Injury / Car Accident (No Upfront Fee)</option>
+                  <option value="2500">Family Law / Divorce Case Retainer Base</option>
+                  <option value="1500">Estate Planning / Wills & Trust Package</option>
+                  <option value="2000">Probate & Estate Administration Base</option>
+                  <option value="1200">Real Estate Closing / Transactional Counsel</option>
+                </select>
+              </div>
+
+              <!-- Case Complexity -->
+              <div>
+                <label for="caseComplexity" class="block text-sm font-medium text-slate-200 mb-2">
+                  2. Anticipated Complexity
+                </label>
+                <select id="caseComplexity" class="w-full bg-navy-900 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none text-sm">
+                  <option value="1.0">Standard / Uncontested Matter</option>
+                  <option value="1.35">Moderate / Multi-Party Dispute (+35%)</option>
+                  <option value="1.75">High Complexity / Litigated Matter (+75%)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Urgent Timeline Option -->
+            <div class="flex items-center gap-3 pt-2">
+              <input type="checkbox" id="urgentNotice" class="w-4 h-4 text-gold-500 bg-navy-900 border-slate-700 rounded focus:ring-gold-500">
+              <label for="urgentNotice" class="text-sm text-slate-300">
+                Requires expedited processing / immediate court appearance filing
+              </label>
+            </div>
+
+            <!-- Action Button -->
+            <button type="submit" class="w-full gold-gradient text-navy-950 font-bold py-4 rounded-lg shadow-lg hover:opacity-95 transition-all text-base flex items-center justify-center gap-2">
+              <i class="fa-solid fa-calculator"></i>
+              <span>Calculate Estimated Retainer</span>
+            </button>
+          </form>
+
+          <!-- Result Display Container -->
+          <div id="estimatorOutput" class="hidden mt-8 p-6 rounded-xl bg-navy-900 border border-gold-500/40 text-center space-y-3">
+            <div class="text-xs text-gold-400 font-semibold uppercase tracking-wider">Estimated Fee Calculation</div>
+            <div id="outputAmount" class="text-2xl sm:text-3xl font-serif font-bold text-white"></div>
+            <p id="outputDetails" class="text-xs text-slate-400 max-w-lg mx-auto leading-relaxed"></p>
+            <a href="#contact" class="inline-block text-xs text-gold-400 underline font-semibold hover:text-white pt-2">
+              Book a formal strategy session to receive an exact legal estimate &rarr;
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold-600 font-semibold text-sm uppercase tracking-wider mb-2">
+            The Lane & Lane Advantage
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900">
+            Why Choose Lane & Lane, LLC?
+          </h2>
+          <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+          <div class="p-6 rounded-xl bg-slate-50 border border-slate-200 hover:border-gold-500/50 transition-colors">
+            <div class="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-600 text-xl font-bold mb-4">
+              <i class="fa-solid fa-landmark"></i>
+            </div>
+            <h3 class="font-serif font-bold text-lg text-navy-900 mb-2">Somerset Court Knowledge</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Decades of experience working within local Somerville court procedures and administrative forums.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-slate-50 border border-slate-200 hover:border-gold-500/50 transition-colors">
+            <div class="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-600 text-xl font-bold mb-4">
+              <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <h3 class="font-serif font-bold text-lg text-navy-900 mb-2">Individualized Strategy</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              No generic templates. Every strategy is tailored directly to match your financial and legal objectives.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-slate-50 border border-slate-200 hover:border-gold-500/50 transition-colors">
+            <div class="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-600 text-xl font-bold mb-4">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3 class="font-serif font-bold text-lg text-navy-900 mb-2">Direct Communication</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Clear, prompt updates directly from your legal advocate throughout every stage of your proceedings.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-slate-50 border border-slate-200 hover:border-gold-500/50 transition-colors">
+            <div class="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-600 text-xl font-bold mb-4">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <h3 class="font-serif font-bold text-lg text-navy-900 mb-2">Proven Track Record</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Dedicated to securing optimal, high-value settlements and court judgments across complex cases.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-slate-100">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-14">
+          <span class="text-gold-600 font-semibold text-sm uppercase tracking-wider">Got Questions?</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">
+            Frequently Asked Questions
+          </h2>
+          <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="space-y-4">
+          
+          <!-- FAQ Item 1 -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq('faq1')" class="w-full text-left p-6 font-serif font-bold text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
+              <span class="text-base sm:text-lg">1. How do I choose the right Law Firm in Somerville, NJ for my legal case?</span>
+              <i id="faq1-icon" class="fa-solid fa-plus text-gold-600 transition-transform"></i>
+            </button>
+            <div id="faq1" class="hidden px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+              Selecting the ideal <strong>Law Firm in Somerville, NJ</strong> requires evaluating local court familiarity, attorney experience, and client dedication. At <strong>Lane & Lane, LLC</strong>, we combine deep roots in Somerset County with focused expertise in Personal Injury, Family Law, Estate Planning, Probate, and Real Estate Law.
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq('faq2')" class="w-full text-left p-6 font-serif font-bold text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
+              <span class="text-base sm:text-lg">2. What steps should I take after an accident with a Personal Injury Lawyer Somerville, NJ?</span>
+              <i id="faq2-icon" class="fa-solid fa-plus text-gold-600 transition-transform"></i>
+            </button>
+            <div id="faq2" class="hidden px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+              Immediately seek medical evaluation and document all details of the scene. Contact a knowledgeable <strong>Personal Injury Lawyer Somerville, NJ</strong> or <strong>Car Accident Lawyer Somerville, NJ</strong> prior to speaking with insurance adjusters. We work on a contingency basis, meaning you pay no attorney fees unless we successfully recover money for you.
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq('faq3')" class="w-full text-left p-6 font-serif font-bold text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
+              <span class="text-base sm:text-lg">3. How can a Family Law Attorney Near Me assist with child custody and divorce?</span>
+              <i id="faq3-icon" class="fa-solid fa-plus text-gold-600 transition-transform"></i>
+            </button>
+            <div id="faq3" class="hidden px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+              Searching for an experienced <strong>Family Law Attorney Near Me</strong> ensures you have an advocate who understands New Jersey's equitable distribution and custody standards. Lane & Lane, LLC assists with spousal support, child custody, visitation rights, and marital asset valuation while aiming to resolve disputes amicably or aggressively in court.
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq('faq4')" class="w-full text-left p-6 font-serif font-bold text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
+              <span class="text-base sm:text-lg">4. Why is hiring an Estate Planning Attorney Near Me necessary?</span>
+              <i id="faq4-icon" class="fa-solid fa-plus text-gold-600 transition-transform"></i>
+            </button>
+            <div id="faq4" class="hidden px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+              Consulting a skilled <strong>Estate Planning Attorney Near Me</strong> or an <strong>Estate Planning Lawyer Somerville, NJ</strong> guarantees your final wishes are legally binding. We draft wills, living trusts, power of attorney documents, and healthcare directives to protect your family's assets and avoid unnecessary tax complications.
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq('faq5')" class="w-full text-left p-6 font-serif font-bold text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
+              <span class="text-base sm:text-lg">5. How does a Probate Attorney Somerville, NJ assist after the death of a loved one?</span>
+              <i id="faq5-icon" class="fa-solid fa-plus text-gold-600 transition-transform"></i>
+            </button>
+            <div id="faq5" class="hidden px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+              A dedicated <strong>Probate Attorney Somerville, NJ</strong> helps executors navigate the surrogate court, pay off legitimate estate debts, handle inventory tax filings, and legally distribute remaining assets to named beneficiaries without unnecessary delays.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold-600 font-semibold text-sm uppercase tracking-wider mb-2">
+            Get In Touch
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900">
+            Contact Lane & Lane, LLC
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Schedule a legal consultation with an experienced attorney today.
+          </p>
+          <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          
+          <!-- Contact Details & Map -->
+          <div class="lg:col-span-5 space-y-8">
+            
+            <div class="bg-navy-900 text-white rounded-2xl p-8 shadow-xl border border-gold-500/30 space-y-6">
+              <h3 class="font-serif text-2xl font-bold gold-text">Office Information</h3>
+              
+              <div class="space-y-4 text-sm">
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center shrink-0 mt-1">
+                    <i class="fa-solid fa-building"></i>
+                  </div>
+                  <div>
+                    <strong class="block text-white font-semibold">Firm Name</strong>
+                    <span class="text-slate-300">Lane & Lane, LLC</span>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center shrink-0 mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div>
+                    <strong class="block text-white font-semibold">Address</strong>
+                    <span class="text-slate-300">84 E Main St 2nd floor, Somerville, NJ 08876, United States</span>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center shrink-0 mt-1">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div>
+                    <strong class="block text-white font-semibold">Phone Number</strong>
+                    <a href="tel:9082596673" class="text-gold-400 font-bold hover:underline">(908) 259-6673</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center shrink-0 mt-1">
+                    <i class="fa-solid fa-globe"></i>
+                  </div>
+                  <div>
+                    <strong class="block text-white font-semibold">Official Website</strong>
+                    <a href="http://www.njlanelaw.com/" target="_blank" rel="noopener" class="text-gold-400 hover:underline">www.njlanelaw.com</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center shrink-0 mt-1">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                  </div>
+                  <div>
+                    <strong class="block text-white font-semibold">Google Listing</strong>
+                    <a href="https://maps.app.goo.gl/M5pnJ54a6BZKCGWa9" target="_blank" rel="noopener" class="text-gold-400 hover:underline text-xs flex items-center gap-1 mt-0.5">
+                      <span>View Google Maps Profile</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map Iframe Embed -->
+            <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.837148085508!2d-74.60978419999999!3d40.5672734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3954cf706e1ef%3A0xd750f4af31c4002b!2sLane%20%26%20Lane%2C%20LLC!5e0!3m2!1sen!2s!4v1790954789798!5m2!1sen!2s" 
+                width="100%" 
+                height="280" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin"
+                title="Lane & Lane, LLC Google Map Location"
+              ></iframe>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="lg:col-span-7">
+            <div class="bg-slate-50 rounded-2xl p-8 sm:p-10 border border-slate-200 shadow-md">
+              <h3 class="font-serif text-2xl font-bold text-navy-900 mb-2">Request Legal Representation</h3>
+              <p class="text-sm text-slate-500 mb-6">Fill out the confidential form below and our legal team will contact you shortly.</p>
+
+              <!-- Form Message Container -->
+              <div id="formAlert" class="hidden p-4 mb-6 rounded-lg text-sm"></div>
+
+              <form id="legalForm" onsubmit="handleFormSubmit(event)" class="space-y-5">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label for="fullName" class="block text-xs font-bold text-navy-900 uppercase tracking-wider mb-2">Full Name *</label>
+                    <input type="text" id="fullName" required placeholder="John Doe" class="w-full bg-white border border-slate-300 rounded-lg p-3 text-sm focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none">
+                  </div>
+                  <div>
+                    <label for="phoneNum" class="block text-xs font-bold text-navy-900 uppercase tracking-wider mb-2">Phone Number *</label>
+                    <input type="tel" id="phoneNum" required placeholder="(908) 000-0000" class="w-full bg-white border border-slate-300 rounded-lg p-3 text-sm focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none">
+                  </div>
+                </div>
+
+                <div>
+                  <label for="emailAddr" class="block text-xs font-bold text-navy-900 uppercase tracking-wider mb-2">Email Address *</label>
+                  <input type="email" id="emailAddr" required placeholder="johndoe@example.com" class="w-full bg-white border border-slate-300 rounded-lg p-3 text-sm focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none">
+                </div>
+
+                <div>
+                  <label for="caseTypeSelect" class="block text-xs font-bold text-navy-900 uppercase tracking-wider mb-2">Legal Matter Type *</label>
+                  <select id="caseTypeSelect" required class="w-full bg-white border border-slate-300 rounded-lg p-3 text-sm focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none">
+                    <option value="">-- Select Your Case Category --</option>
+                    <option value="Personal Injury / Car Accident">Personal Injury / Car Accident</option>
+                    <option value="Family Law / Divorce">Family Law / Divorce</option>
+                    <option value="Estate Planning / Wills & Trusts">Estate Planning / Wills & Trusts</option>
+                    <option value="Probate Administration">Probate Administration</option>
+                    <option value="Real Estate Law">Real Estate Law</option>
+                    <option value="Other Legal Matter">Other Legal Counsel</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="caseDetails" class="block text-xs font-bold text-navy-900 uppercase tracking-wider mb-2">Brief Description of Case *</label>
+                  <textarea id="caseDetails" rows="4" required placeholder="Please provide relevant details regarding your legal situation..." class="w-full bg-white border border-slate-300 rounded-lg p-3 text-sm focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none"></textarea>
+                </div>
+
+                <button type="submit" class="w-full gold-gradient text-navy-950 font-bold py-4 rounded-lg shadow-lg hover:shadow-gold-500/20 transition-all text-base uppercase tracking-wider">
+                  Submit Confidential Request
+                </button>
+                
+                <p class="text-[11px] text-slate-400 text-center">
+                  Disclaimer: Submitting this form does not establish an attorney-client relationship. Confidential information should not be sent until a formal agreement is executed.
+                </p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-slate-200 border-t border-slate-300 text-center">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h4 class="font-serif font-bold text-slate-700 text-xs uppercase tracking-widest mb-4">Targeted Service Areas & Keywords</h4>
+        <div class="flex flex-wrap justify-center gap-2 max-w-5xl mx-auto text-xs text-slate-600 font-medium">
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Law Firm in Somerville, NJ</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Personal Injury Attorney Near Me</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Family Law Attorney Near Me</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Law Firm Near Me</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Estate Planning Attorney Near Me</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Personal Injury Lawyer Somerville, NJ</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Real Estate Attorney Somerville, NJ</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Car Accident Lawyer Somerville, NJ</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Estate Planning Lawyer Somerville, NJ</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-300 shadow-sm">Probate Attorney Somerville, NJ</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-navy-950 text-slate-400 border-t-2 border-gold-500 text-sm py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 pb-8 border-b border-navy-800 text-center md:text-left">
+        
+        <div>
+          <span class="font-serif font-bold text-white text-xl block mb-2">LANE & LANE, LLC</span>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Premier legal representation in Somerville, New Jersey. Dedicated to protecting your rights, assets, and family future across civil litigation practice areas.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white mb-3 font-serif">Contact Information</h4>
+          <p class="text-xs leading-relaxed">
+            84 E Main St 2nd floor<br>
+            Somerville, NJ 08876<br>
+            Phone: <a href="tel:9082596673" class="text-gold-400 hover:underline">(908) 259-6673</a>
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white mb-3 font-serif">Quick Navigation</h4>
+          <div class="flex flex-wrap justify-center md:justify-start gap-4 text-xs">
+            <a href="#about" class="hover:text-gold-400">About Us</a>
+            <a href="#services" class="hover:text-gold-400">Practice Areas</a>
+            <a href="#estimator" class="hover:text-gold-400">Retainer Estimator</a>
+            <a href="#faq" class="hover:text-gold-400">FAQ</a>
+            <a href="#contact" class="hover:text-gold-400">Contact</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center text-xs text-slate-500">
+        <p>&copy; <span id="currentYear"></span> Lane & Lane, LLC. All Rights Reserved. Attorney Advertising.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year dynamically in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Mobile Menu Toggle logic
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Toggle FAQ Accordions
+    function toggleFaq(id) {
+      const content = document.getElementById(id);
+      const icon = document.getElementById(id + '-icon');
+
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.classList.remove('fa-plus');
+        icon.classList.add('fa-minus');
+      } else {
+        content.classList.add('hidden');
+        icon.classList.remove('fa-minus');
+        icon.classList.add('fa-plus');
+      }
+    }
+
+    // Fee & Retainer Estimator Logic
+    function computeEstimate() {
+      const area = document.getElementById('practiceArea').value;
+      const complexity = parseFloat(document.getElementById('caseComplexity').value);
+      const isUrgent = document.getElementById('urgentNotice').checked;
+
+      const outputContainer = document.getElementById('estimatorOutput');
+      const outputAmount = document.getElementById('outputAmount');
+      const outputDetails = document.getElementById('outputDetails');
+
+      outputContainer.classList.remove('hidden');
+
+      if (area === 'contingency') {
+        outputAmount.textContent = "Contingency Fee (No Upfront Attorney Fees)";
+        outputDetails.textContent = "For personal injury and car accident claims, our firm operates on a contingency fee structure. You do not pay any legal fees unless we win or settle your case.";
+        return;
+      }
+
+      let baseFee = parseFloat(area);
+      let calculatedTotal = baseFee * complexity;
+
+      if (isUrgent) {
+        calculatedTotal *= 1.2; // 20% surge for expedited processing
+      }
+
+      const lowerRange = Math.round(calculatedTotal * 0.9);
+      const upperRange = Math.round(calculatedTotal * 1.2);
+
+      outputAmount.textContent = '$' + lowerRange.toLocaleString() + ' - $' + upperRange.toLocaleString();
+      outputDetails.textContent = "Estimated starting retainer or fee range based on selected practice area and case parameters. Final retainer arrangements are established during your formal consultation.";
+    }
+
+    // Form Submission Handling
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const alertBox = document.getElementById('formAlert');
+      const name = document.getElementById('fullName').value;
+
+      alertBox.className = "p-4 mb-6 rounded-lg text-sm bg-emerald-100 text-emerald-800 border border-emerald-300";
+      alertBox.innerHTML = "<strong>Thank you, " + name + "!</strong> Your consultation request has been received. A representative from Lane & Lane, LLC will contact you at your provided phone number shortly.";
+      alertBox.classList.remove('hidden');
+
+      document.getElementById('legalForm').reset();
+
+      // Scroll to alert box smoothly
+      alertBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  </script>
+</body>
+</html>
